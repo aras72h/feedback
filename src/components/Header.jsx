@@ -6,4 +6,8 @@ function Header(props) {
     )
 }
 
+Header.defaultProps = {
+    text: 'Feedback Component'
+}
+
 export default Header
