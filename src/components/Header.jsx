@@ -1,7 +1,7 @@
-function Header() {
+function Header(props) {
     return (
         <header>
-            <h2>Feedback Component</h2>
+            <h2>{props.text}</h2>
         </header>
     )
 }
